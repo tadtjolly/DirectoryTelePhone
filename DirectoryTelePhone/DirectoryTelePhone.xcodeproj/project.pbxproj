@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		708042441F1531BD000C3611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708042431F1531BD000C3611 /* AppDelegate.swift */; };
+		7080424C1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7080424A1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodeld */; };
+		7080424E1F1531BD000C3611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7080424D1F1531BD000C3611 /* Assets.xcassets */; };
+		7080425C1F1531BE000C3611 /* DirectoryTelePhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7080425B1F1531BE000C3611 /* DirectoryTelePhoneTests.swift */; };
+		708042671F1531BE000C3611 /* DirectoryTelePhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708042661F1531BE000C3611 /* DirectoryTelePhoneUITests.swift */; };
+		7080427A1F153247000C3611 /* MainDirectoryTelePhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708042791F153247000C3611 /* MainDirectoryTelePhone.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		708042581F1531BE000C3611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708042381F1531BD000C3611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7080423F1F1531BD000C3611;
+			remoteInfo = DirectoryTelePhone;
+		};
+		708042631F1531BE000C3611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 708042381F1531BD000C3611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7080423F1F1531BD000C3611;
+			remoteInfo = DirectoryTelePhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		708042401F1531BD000C3611 /* DirectoryTelePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirectoryTelePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		708042431F1531BD000C3611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		7080424B1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DirectoryTelePhone.xcdatamodel; sourceTree = "<group>"; };
+		7080424D1F1531BD000C3611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		708042521F1531BD000C3611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708042571F1531BE000C3611 /* DirectoryTelePhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryTelePhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7080425B1F1531BE000C3611 /* DirectoryTelePhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTelePhoneTests.swift; sourceTree = "<group>"; };
+		7080425D1F1531BE000C3611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708042621F1531BE000C3611 /* DirectoryTelePhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirectoryTelePhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		708042661F1531BE000C3611 /* DirectoryTelePhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryTelePhoneUITests.swift; sourceTree = "<group>"; };
+		708042681F1531BE000C3611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		708042791F153247000C3611 /* MainDirectoryTelePhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainDirectoryTelePhone.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7080423D1F1531BD000C3611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708042541F1531BE000C3611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7080425F1F1531BE000C3611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		708042371F1531BD000C3611 = {
+			isa = PBXGroup;
+			children = (
+				708042421F1531BD000C3611 /* DirectoryTelePhone */,
+				7080425A1F1531BE000C3611 /* DirectoryTelePhoneTests */,
+				708042651F1531BE000C3611 /* DirectoryTelePhoneUITests */,
+				708042411F1531BD000C3611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		708042411F1531BD000C3611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				708042401F1531BD000C3611 /* DirectoryTelePhone.app */,
+				708042571F1531BE000C3611 /* DirectoryTelePhoneTests.xctest */,
+				708042621F1531BE000C3611 /* DirectoryTelePhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		708042421F1531BD000C3611 /* DirectoryTelePhone */ = {
+			isa = PBXGroup;
+			children = (
+				708042741F153223000C3611 /* Controller */,
+				708042751F153223000C3611 /* Helps */,
+				708042761F153223000C3611 /* Model */,
+				708042771F153223000C3611 /* Resource */,
+				708042781F153223000C3611 /* Views */,
+				708042521F1531BD000C3611 /* Info.plist */,
+				7080424A1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodeld */,
+			);
+			path = DirectoryTelePhone;
+			sourceTree = "<group>";
+		};
+		7080425A1F1531BE000C3611 /* DirectoryTelePhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				7080425B1F1531BE000C3611 /* DirectoryTelePhoneTests.swift */,
+				7080425D1F1531BE000C3611 /* Info.plist */,
+			);
+			path = DirectoryTelePhoneTests;
+			sourceTree = "<group>";
+		};
+		708042651F1531BE000C3611 /* DirectoryTelePhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				708042661F1531BE000C3611 /* DirectoryTelePhoneUITests.swift */,
+				708042681F1531BE000C3611 /* Info.plist */,
+			);
+			path = DirectoryTelePhoneUITests;
+			sourceTree = "<group>";
+		};
+		708042741F153223000C3611 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		708042751F153223000C3611 /* Helps */ = {
+			isa = PBXGroup;
+			children = (
+				708042431F1531BD000C3611 /* AppDelegate.swift */,
+			);
+			path = Helps;
+			sourceTree = "<group>";
+		};
+		708042761F153223000C3611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		708042771F153223000C3611 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7080424D1F1531BD000C3611 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		708042781F153223000C3611 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				708042791F153247000C3611 /* MainDirectoryTelePhone.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7080423F1F1531BD000C3611 /* DirectoryTelePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7080426B1F1531BE000C3611 /* Build configuration list for PBXNativeTarget "DirectoryTelePhone" */;
+			buildPhases = (
+				7080423C1F1531BD000C3611 /* Sources */,
+				7080423D1F1531BD000C3611 /* Frameworks */,
+				7080423E1F1531BD000C3611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirectoryTelePhone;
+			productName = DirectoryTelePhone;
+			productReference = 708042401F1531BD000C3611 /* DirectoryTelePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		708042561F1531BE000C3611 /* DirectoryTelePhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7080426E1F1531BE000C3611 /* Build configuration list for PBXNativeTarget "DirectoryTelePhoneTests" */;
+			buildPhases = (
+				708042531F1531BE000C3611 /* Sources */,
+				708042541F1531BE000C3611 /* Frameworks */,
+				708042551F1531BE000C3611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708042591F1531BE000C3611 /* PBXTargetDependency */,
+			);
+			name = DirectoryTelePhoneTests;
+			productName = DirectoryTelePhoneTests;
+			productReference = 708042571F1531BE000C3611 /* DirectoryTelePhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		708042611F1531BE000C3611 /* DirectoryTelePhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 708042711F1531BE000C3611 /* Build configuration list for PBXNativeTarget "DirectoryTelePhoneUITests" */;
+			buildPhases = (
+				7080425E1F1531BE000C3611 /* Sources */,
+				7080425F1F1531BE000C3611 /* Frameworks */,
+				708042601F1531BE000C3611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				708042641F1531BE000C3611 /* PBXTargetDependency */,
+			);
+			name = DirectoryTelePhoneUITests;
+			productName = DirectoryTelePhoneUITests;
+			productReference = 708042621F1531BE000C3611 /* DirectoryTelePhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		708042381F1531BD000C3611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TuanAnhVu;
+				TargetAttributes = {
+					7080423F1F1531BD000C3611 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					708042561F1531BE000C3611 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7080423F1F1531BD000C3611;
+					};
+					708042611F1531BE000C3611 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7080423F1F1531BD000C3611;
+					};
+				};
+			};
+			buildConfigurationList = 7080423B1F1531BD000C3611 /* Build configuration list for PBXProject "DirectoryTelePhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 708042371F1531BD000C3611;
+			productRefGroup = 708042411F1531BD000C3611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7080423F1F1531BD000C3611 /* DirectoryTelePhone */,
+				708042561F1531BE000C3611 /* DirectoryTelePhoneTests */,
+				708042611F1531BE000C3611 /* DirectoryTelePhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7080423E1F1531BD000C3611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7080427A1F153247000C3611 /* MainDirectoryTelePhone.storyboard in Resources */,
+				7080424E1F1531BD000C3611 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708042551F1531BE000C3611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708042601F1531BE000C3611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7080423C1F1531BD000C3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7080424C1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodeld in Sources */,
+				708042441F1531BD000C3611 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		708042531F1531BE000C3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7080425C1F1531BE000C3611 /* DirectoryTelePhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7080425E1F1531BE000C3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				708042671F1531BE000C3611 /* DirectoryTelePhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		708042591F1531BE000C3611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7080423F1F1531BD000C3611 /* DirectoryTelePhone */;
+			targetProxy = 708042581F1531BE000C3611 /* PBXContainerItemProxy */;
+		};
+		708042641F1531BE000C3611 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7080423F1F1531BD000C3611 /* DirectoryTelePhone */;
+			targetProxy = 708042631F1531BE000C3611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		708042691F1531BE000C3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7080426A1F1531BE000C3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7080426C1F1531BE000C3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DirectoryTelePhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnhVu.DirectoryTelePhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7080426D1F1531BE000C3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DirectoryTelePhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnhVu.DirectoryTelePhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		7080426F1F1531BE000C3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DirectoryTelePhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnhVu.DirectoryTelePhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectoryTelePhone.app/DirectoryTelePhone";
+			};
+			name = Debug;
+		};
+		708042701F1531BE000C3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DirectoryTelePhoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnhVu.DirectoryTelePhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirectoryTelePhone.app/DirectoryTelePhone";
+			};
+			name = Release;
+		};
+		708042721F1531BE000C3611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DirectoryTelePhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnhVu.DirectoryTelePhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DirectoryTelePhone;
+			};
+			name = Debug;
+		};
+		708042731F1531BE000C3611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = DirectoryTelePhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TuanAnhVu.DirectoryTelePhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DirectoryTelePhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7080423B1F1531BD000C3611 /* Build configuration list for PBXProject "DirectoryTelePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708042691F1531BE000C3611 /* Debug */,
+				7080426A1F1531BE000C3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7080426B1F1531BE000C3611 /* Build configuration list for PBXNativeTarget "DirectoryTelePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7080426C1F1531BE000C3611 /* Debug */,
+				7080426D1F1531BE000C3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7080426E1F1531BE000C3611 /* Build configuration list for PBXNativeTarget "DirectoryTelePhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7080426F1F1531BE000C3611 /* Debug */,
+				708042701F1531BE000C3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		708042711F1531BE000C3611 /* Build configuration list for PBXNativeTarget "DirectoryTelePhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708042721F1531BE000C3611 /* Debug */,
+				708042731F1531BE000C3611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7080424A1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7080424B1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodel */,
+			);
+			currentVersion = 7080424B1F1531BD000C3611 /* DirectoryTelePhone.xcdatamodel */;
+			path = DirectoryTelePhone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 708042381F1531BD000C3611 /* Project object */;
+}
